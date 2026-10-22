@@ -1,0 +1,7 @@
+*
+!/LICENSE
+!/README.md
+!/bucket/
+!/bucket/*.json
+!/bucket/.gitkeep
+!/.gitignore
