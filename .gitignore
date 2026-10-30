@@ -5,3 +5,7 @@
 !/bucket/*.json
 !/bucket/.gitkeep
 !/.gitignore
+!/.github/
+!/.github/CONTRIBUTORS.md
+!/.github/workflows/
+!/.github/workflows/cla-dco.yml
