@@ -1,13 +1,13 @@
 {
-    "version": "0.40.0",
+    "version": "0.40.1",
     "description": "Claude Code toolkit: safety hooks, status line and workflow commands (experimental on Windows)",
     "homepage": "https://github.com/pragmatic-engineer/playbook",
     "license": "Apache-2.0",
     "notes": "Windows support is experimental. See https://github.com/pragmatic-engineer/playbook/blob/main/docs/guides/00-install.md for what works. Update with 'scoop update playbook', not 'playbook update'.",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/pragmatic-engineer/playbook/releases/download/v0.40.0/playbook-0.40.0-x86_64-pc-windows-msvc.exe#/playbook.exe",
-            "hash": "6fdc41cec09ef5f4876865b8c6a12d65e2881550a609221d49b2c23e1c6e3352"
+            "url": "https://github.com/pragmatic-engineer/playbook/releases/download/v0.40.1/playbook-0.40.1-x86_64-pc-windows-msvc.exe#/playbook.exe",
+            "hash": "d61e7aeb653871e1d4892a9bca50d8deec8caf56463c5e0ca9d6b196dfffbf9b"
         }
     },
     "bin": "playbook.exe"
