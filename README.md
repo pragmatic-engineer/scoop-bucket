@@ -3,13 +3,13 @@ SPDX-FileCopyrightText: 2026 Igor Santos
 SPDX-License-Identifier: Apache-2.0
 -->
 
-# scoop-bucket
+# scoop-bucket (archived)
 
-Scoop bucket for [playbook](https://github.com/pragmatic-engineer/playbook). Windows support is experimental, see the [install guide](https://github.com/pragmatic-engineer/playbook/blob/main/docs/guides/00-install.md).
+This bucket is archived and no longer updated. Playbook ships through Homebrew and Nix. See the [install guide](https://github.com/pragmatic-engineer/playbook/blob/main/docs/guides/00-install.md).
 
-```powershell
-scoop bucket add playbook https://github.com/pragmatic-engineer/scoop-bucket
-scoop install playbook
+```sh
+brew install pragmatic-engineer/tap/playbook
+nix run github:pragmatic-engineer/nix#playbook
 ```
 
-`bucket/playbook.json` is written by the playbook release workflow. Do not edit it by hand.
+Windows users can download `playbook-X.Y.Z-x86_64-pc-windows-msvc.exe` from the [releases page](https://github.com/pragmatic-engineer/playbook/releases).
